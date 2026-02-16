@@ -1,0 +1,12 @@
+timezone: Asia/Tokyo
+
+schedule:
+  daily>: 07:00:00
+
+_export:
+  td:
+    database: sample_datasets
+
++test_task:
+  td>: queries/test_query.sql
+  create_table: test_workflow_output
