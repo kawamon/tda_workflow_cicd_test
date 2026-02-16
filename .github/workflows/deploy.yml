@@ -13,6 +13,6 @@ jobs:
       - name: Deploy Workflow
         uses: kawamon/treasure-workflow-actions@v1
         with:
-          td_wf_endpoint: https://api-workflow.treasuredata.co.jp
+          td_wf_endpoint: https://api-workflow.treasuredata.com
           td_master_apikey: ${{ secrets.TD_MASTER_APIKEY }}
           td_wf_project_name: test_workflow_cicd
