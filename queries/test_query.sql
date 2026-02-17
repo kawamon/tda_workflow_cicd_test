@@ -1,3 +1,5 @@
+-- test comment 
+
 SELECT
   COUNT(*) as total_records,
   MIN(time) as min_time,
